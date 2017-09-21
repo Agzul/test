@@ -1,0 +1,11 @@
+%main.container
+  .center.hero-unit
+    %h1 Welcome to the sample app
+    %h2
+      This is the home page for the
+      %a{href: "http://railstutorial.org/"} Ruby on Rails Tutorial
+      sample application.
+    = link_to "Sign up now!", '#', class: "btn btn-large btn-primary"
+    %br.nav-left
+= link_to image_tag("rails-logo.svg", alt: "Rails", size: "64x64"),
+'http://rubyonrails.org/', class: "rails-logo"
